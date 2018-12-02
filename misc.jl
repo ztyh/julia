@@ -20,3 +20,5 @@ var(Y)
 quantile(Gamma(16,3),0.95)
 
 pdf(Poisson(1),0)+pdf(Poisson(1),1)+pdf(Poisson(1),2)+pdf(Poisson(1),3)
+
+randperm(length(collect(1:24)))
