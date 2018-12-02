@@ -16,6 +16,3 @@ mean(Y)
 
 var(X)
 var(Y)
-
-randperm(length(collect(1:24)))
-
