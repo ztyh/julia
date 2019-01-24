@@ -22,3 +22,9 @@ quantile(Gamma(16,3),0.95)
 pdf(Poisson(1),0)+pdf(Poisson(1),1)+pdf(Poisson(1),2)+pdf(Poisson(1),3)
 
 randperm(length(collect(1:24)))
+
+quantile(Chisq(4), .95)
+quantile(FDist(3,8), .99)
+quantile(FDist(3,12), .99)
+quantile(FDist(1,12), .99)
+
